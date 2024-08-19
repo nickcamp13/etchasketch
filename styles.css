@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.square {
+    flex: 0 0 calc(100% / 16);
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+}
